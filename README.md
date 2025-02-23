@@ -3,7 +3,7 @@
 Me chamo José Satiro de Lima, tenho 16 anos e sou natural do Ceará. Estou cursando o ensino médio no Instituto Federal de Maranguape, com o curso técnico em informática.
 
 </a> 
-    <a href="https://github.com/logica py?tab=repositories&sort=stargazers">
+    <a href="https://github.com/logicapy?tab=repositories&sort=stargazers">
         <img 
             alt="Total de estrelas" 
             title="Total de estrelas GitHub" 
