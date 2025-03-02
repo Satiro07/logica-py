@@ -6,6 +6,5 @@ while True:
         atuali = atual + n1
         print(atuali)
         n1 = atual
-        atual = atuali
-        
+        atual = atuali     
     break
