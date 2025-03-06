@@ -9,13 +9,12 @@ alfabeto = ['a', 'b', 'c', 'd',
 pares = []
 for i, letras in enumerate(alfabeto):
     if letras in palavra:
-        print(f'{letras}: {palavra.count(letras)}')
-        # pares.append(letras)
-        # pares.append(palavra.count(letras))
-# cont = 0
-# while cont <= len(pares):
-#     print(f'{pares[cont]}: {pares[cont+1]}')
-#     cont += 2
-#     if cont == len(pares):
-#         break
+        pares.append(letras)
+        pares.append(palavra.count(letras))
+cont = 0
+while cont <= len(pares):
+    print(f'{pares[cont]}: {pares[cont+1]}')
+    cont += 2
+    if cont == len(pares):
+        break
 

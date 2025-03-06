@@ -8,4 +8,4 @@ lis = ['oculos', 'pe', 'mão',
          'oculos', 3, 0, 9,
          5, 3, 5]
 print(remover_dups(lis))
-#correto---^
+#'correto'---^
