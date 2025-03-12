@@ -1,5 +1,4 @@
 num = 50
-ini = 1
 for num in range(2, num+1):
     tot = 0
     for i in range(2, int(num**0.5)+1):

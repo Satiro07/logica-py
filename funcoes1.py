@@ -9,5 +9,4 @@ def sequencia_fibonacci():
         n1 = atual
         atual = atuali
         cont += 1
-
 sequencia_fibonacci()
