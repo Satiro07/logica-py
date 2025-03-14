@@ -3,9 +3,9 @@ def verificar(lista):
     c = 0
     r = 0
     for i in range(0, len(lista)):
-        if lista[i] == a:
+        if a == lista[i]:
             r += 1
-            lista.remove(lista[c])
+            lista.remove(a)
         c += 1
     return lista
 
