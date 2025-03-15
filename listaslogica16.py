@@ -1,18 +1,13 @@
+def verificar(lista, a):
+    c = 0
+    while c <= len(lista)-1:
+        if str(a) == str(lista[c]):
+            lista.remove(lista[c])
+        else:
+            c += 1
+    return lista
 
 
-
-lista = [2, 5, 'abril', 'abril', 33, 1, 3, 4, 6, 6]
+lista = [7, 7, 0]
 a = input('Digite um elemento: ')
-
-
-c = 0
-tot = len(lista)
-
-while c <= tot-1:
-    if a == str(lista[c]):
-        lista.remove(a)
-        c -= 1
-    tot = len(lista)
-    c += 1
-        
-print(lista)
+print(verificar(lista, a))
