@@ -8,6 +8,6 @@ def verificar(lista, a):
     return lista
 
 
-lista = [7, 7, 0]
+lista = [2, 5, 7, 'abril', 33, 1, 3,'abril', 4, 7, 7]
 a = input('Digite um elemento: ')
 print(verificar(lista, a))
