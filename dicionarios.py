@@ -20,7 +20,7 @@ for nota in geral:
     for k, v in nota.items():
         soma = sum(v)
         media = soma / len(v)
-        print(f'Nome: {k}, Média: {media:.2f}')
+        print(f'Nome do aluno: {k}, Média: {media:.2f}')
         if media >= media_maior:
             media_maior = media
             aluno_maior_media_maior = k
