@@ -24,5 +24,5 @@ for nota in geral:
         if media >= m_maior:
             m_maior = media
             media_maior = k
-
+print(f'O aluno com a maior média foi {media_maior} = {m_maior}')
 
