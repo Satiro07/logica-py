@@ -14,9 +14,9 @@ while True:
     if add_aluno == 'n':
         break
 
+media_maior = ''
+m_maior = 0
 for nota in geral:
-    media_maior = ''
-    m_maior = 0
     for k, v in nota.items():
         soma = sum(v)
         media = soma / len(v)
