@@ -23,6 +23,6 @@ for nota in geral:
         print(f'Nome do aluno: {k}, Média: {media:.2f}')
         if media >= media_maior:
             media_maior = media
-            aluno_maior_media_maior = k
+            aluno_maior_media = k
 print(f'O aluno com a maior média foi {aluno_maior_media} = {media_maior:.2f}')
 
