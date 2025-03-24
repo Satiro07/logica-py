@@ -14,15 +14,15 @@ while True:
     if add_aluno == 'n':
         break
 
-media_maior = ''
-m_maior = 0
+aluno_maior_media = ''
+media_maior = 0
 for nota in geral:
     for k, v in nota.items():
         soma = sum(v)
         media = soma / len(v)
         print(f'Nome: {k}, Média: {media:.2f}')
-        if media >= m_maior:
-            m_maior = media
-            media_maior = k
-print(f'O aluno com a maior média foi {media_maior} = {m_maior}')
+        if media >= media_maior:
+            media_maior = media
+            aluno_maior_media_maior = k
+print(f'O aluno com a maior média foi {aluno_maior_media} = {media_maior:.2f}')
 
