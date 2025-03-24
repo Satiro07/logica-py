@@ -13,8 +13,16 @@ while True:
     add_aluno = input('Adicionar outro aluno? [s/n] ').lower()
     if add_aluno == 'n':
         break
+
 for nota in geral:
+    media_maior = ''
+    m_maior = 0
     for k, v in nota.items():
         soma = sum(v)
         media = soma / len(v)
         print(f'Nome: {k}, Média: {media:.2f}')
+        if media >= m_maior:
+            m_maior = media
+            media_maior = k
+
+
