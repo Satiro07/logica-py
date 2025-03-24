@@ -17,4 +17,4 @@ for nota in geral:
     for k, v in nota.items():
         soma = sum(v)
         media = soma / len(v)
-        print(f'{k} media: {media:.2f}')
+        print(f'Nome: {k}, Média: {media:.2f}')
