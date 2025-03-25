@@ -1,3 +1,2 @@
 palavra = input('Digite uma frase: '). strip()
-palavra.count(palavra.strip(' '))
-print()
+print(palavra.count(palavra.strip(' ')+1))
