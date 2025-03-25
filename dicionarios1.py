@@ -1,2 +1,4 @@
-palavra = input('Digite uma frase: '). strip()
-print(palavra.count(palavra.strip(' ')+1))
+lista = []
+palavra = input('Digite uma frase: ').strip().split()
+print(palavra[0])
+
