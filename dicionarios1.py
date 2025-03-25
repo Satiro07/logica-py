@@ -1,1 +1,2 @@
-palavra = input('Digite uma frase: ')
+palavra = input('Digite uma frase: '). strip()
+print(palavra)
