@@ -1,0 +1,1 @@
+palavra = input('Digite uma frase: ')
