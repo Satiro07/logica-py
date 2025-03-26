@@ -25,4 +25,3 @@ for nota in geral:
             media_maior = media
             aluno_maior_media = k
 print(f'O aluno com a maior média foi {aluno_maior_media} = {media_maior:.2f}')
-

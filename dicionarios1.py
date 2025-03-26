@@ -1,24 +1,22 @@
-
 lista = []
-
 while True:
-    frases = ''
     cont = []
     geral = []
     dicionario = {}
     frase1 = 'n'
     while frase1 != 's':
-        frase1 = input('Digite uma frase ou "s" para sair: ').strip()
+        frase1 = input('Digite uma frase ou "s" para sair: ').strip().lower()
+        if frase1 == 's':
+            break
         frase = frase1.split()
-        frases = frase
-        cont += frases
-        print(frases)
-    for palavra in frase:
+        cont += frase
+    for palavra in cont:
         palavra_nome = palavra
-        pala = frase.count(palavra)
+        pala = cont.count(palavra)
         dicionario[palavra_nome] = pala
-    geral.append(dicionario)
-    lista.append(geral)
+    lista.append(dicionario)
     break
-print()
-print(lista)
+
+for palavra in lista:
+    for k, v in palavra.items():
+        print(f'{k}: {v}')
