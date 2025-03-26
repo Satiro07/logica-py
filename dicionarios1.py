@@ -1,7 +1,6 @@
 lista = []
 while True:
     cont = []
-    geral = []
     dicionario = {}
     frase1 = 'n'
     while frase1 != 's':
