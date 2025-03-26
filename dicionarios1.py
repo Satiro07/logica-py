@@ -20,5 +20,5 @@ while True:
     geral.append(dicionario)
     lista.append(geral)
     break
-    
+print()
 print(lista)
