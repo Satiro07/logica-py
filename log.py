@@ -11,5 +11,3 @@ def contar_vogais(texto):
 frase = input('Digite algo: ').lower().split()
 resp = contar_vogais(frase)
 print(resp)
-# letra = 'é'
-# print(letra.remove('´'))
