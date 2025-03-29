@@ -1,4 +1,5 @@
 def contador_palavras(frase):
+
     quantidade_palavras = frase.split()
     quantidade_palavras1 = len(quantidade_palavras)
     quantidade_letras_com_espaco = len(frase)
@@ -10,5 +11,5 @@ def contador_palavras(frase):
 
 
 
-frase = 'python é muito divertido!'
+frase = 'python é muito divertido'
 print(contador_palavras(frase))
