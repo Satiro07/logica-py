@@ -1,7 +1,6 @@
 num = int(input('Digite um valor: '))
 copia_num = copia = num
-soma_f = 0
-cont = 0
+soma_f = cont =  0
 while True:
     soma = digs = c = 0
     while copia_num:
