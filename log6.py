@@ -6,7 +6,6 @@ while numeros > 0:
         lista.append(numeros)
 alvo = int(input('Digite um número alvo: '))
 c = 0
-
 while c < len(lista):
     verdade = False
     for i in range(0, len(lista)):
