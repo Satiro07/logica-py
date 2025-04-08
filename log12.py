@@ -14,9 +14,8 @@ for i in range(0, len(lista)-1):
         if t == True:
             numero = lista[c]
         else:
-            
-        c += 1
+
+            c += 1
     if len(seq) > len(seq_f):
         seq_f = seq
 print(sorted(seq_f))
-print()
