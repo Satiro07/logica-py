@@ -6,13 +6,12 @@ while True:
     while copia_num:
         copia_num //= 10  
         digs += 1
-    if digs > 1:
-        for c in range(0, digs):
-            digito = copia % 10
-            soma += digito
-            copia //=10
-    else:
+    if digs == 1:
         print(num if cont == 0 else soma_f)
         break
+    for c in range(0, digs):
+        digito = copia % 10
+        soma += digito
+        copia //=10
     copia_num = copia = soma_f = soma
     cont += 1
