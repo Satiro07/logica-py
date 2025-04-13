@@ -4,7 +4,7 @@ soma_f = cont =  0
 while True:
     soma = digs = 0
     while copia_num:
-        copia_num //= 10
+        copia_num //= 10  
         digs += 1
     if digs > 1:
         for c in range(0, digs):
