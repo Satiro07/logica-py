@@ -7,11 +7,10 @@ while True:
         copia_num //= 10
         digs += 1
     if digs > 1:
-        while c < digs:
+        for c in range(0, digs):
             digito = copia % 10
             soma += digito
             copia //=10
-            c += 1
     else:
         if cont == 0:
             print(num)
