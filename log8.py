@@ -12,10 +12,12 @@ while True:
             soma += digito
             copia //=10
     else:
-        if cont == 0:
-            print(num)
-        else:
-            print(soma_f)
+        print(num if cont == 0 else soma_f)
         break
+        # if cont == 0:
+        #     print(num)
+        # else:
+        #     print(soma_f)
+        # break
     copia_num = copia = soma_f = soma
     cont += 1
