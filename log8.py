@@ -2,7 +2,7 @@ num = int(input('Digite um valor: '))
 copia_num = copia = num
 soma_f = cont =  0
 while True:
-    soma = digs = c = 0
+    soma = digs = 0
     while copia_num:
         copia_num //= 10
         digs += 1
@@ -14,10 +14,5 @@ while True:
     else:
         print(num if cont == 0 else soma_f)
         break
-        # if cont == 0:
-        #     print(num)
-        # else:
-        #     print(soma_f)
-        # break
     copia_num = copia = soma_f = soma
     cont += 1
