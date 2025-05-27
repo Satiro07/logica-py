@@ -5,11 +5,11 @@ palavras = frase.split()
 novas_palavras = []
 contagem = 0
 for palavra in palavras:
-    palavra_frag = palavra.split()
-    cont = len(palavra_frag)
+    cont = len(palavra)
     palavra_certa = []
     for i in range(cont):
-        if palavra_frag[i] not in pontos:
-            palavra_certa.append(palavra_frag[i])
+        print(palavra[i])
+        if palavra[i] not in pontos:
+            palavra_certa.append(palavra[i])
     novas_palavras.append(palavra_certa)
 print(novas_palavras)
