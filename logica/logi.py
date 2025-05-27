@@ -8,8 +8,19 @@ for palavra in palavras:
     cont = len(palavra)
     palavra_certa = []
     for i in range(cont):
-        print(palavra[i])
         if palavra[i] not in pontos:
             palavra_certa.append(palavra[i])
-    novas_palavras.append(palavra_certa)
-print(novas_palavras)
+    correto = ''
+    for letra in palavra_certa:
+        correto += letra
+    novas_palavras.append(correto)
+palavras_palindromo = []
+for palavra in novas_palavras:
+    if palavra == palavra[::-1]:
+        palavras_palindromo.append(palavra)
+
+if palavras_palindromo:
+    print('palavras palindromas')
+    print(palavras_palindromo)
+else:
+    print('A frase nao possui palavras palindromas')
