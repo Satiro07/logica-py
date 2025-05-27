@@ -5,11 +5,12 @@ palavras = frase.split()
 novas_palavras = []
 for palavra in palavras:
     verificacao = False
+    palavra_completa = palavra
     for i in range(len(palavra)):
         if palavra[i] in pontos:
-            palavra.remove(palavra[i])
-            novas_palavras.append(palavra)
+            palavra_completa.remove(palavra_completa[i])
+            novas_palavras.append(palavra_completa)
             verificacao = True
     if verificacao == False:
-        novas_palavras.append(palavra)
+        novas_palavras.append(palavra_completa)
 print(novas_palavras)
