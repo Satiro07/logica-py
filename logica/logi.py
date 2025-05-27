@@ -8,12 +8,16 @@ for palavra in palavras:
     cont = len(palavra)
     palavra_certa = []
     for i in range(cont):
-        if palavra[i] not in pontos:
-            palavra_certa.append(palavra[i])
+        if len(palavra) > 1:
+            if palavra[i] not in pontos:
+                palavra_certa.append(palavra[i])
+        else:
+            break
     correto = ''
     for letra in palavra_certa:
         correto += letra
-    novas_palavras.append(correto)
+    if correto != '':
+        novas_palavras.append(correto)
 palavras_palindromo = []
 for palavra in novas_palavras:
     if palavra == palavra[::-1]:
